@@ -1,1 +1,78 @@
-<div id="app"></div>
+<html>
+
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+		integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+	<style>
+		@media (min-width: 992px) {
+			body {
+				padding-top: 56px;
+			}
+		}
+
+		@media (max-width: 991px) {
+			body {
+				padding-top: 136px;
+			}
+		}
+
+		@media (max-width: 216px) {
+			body {
+				padding-top: 176px;
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navbar">
+			<div>
+				<ul class="navbar-nav">
+					<li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+					<li class="nav-item"><a class="nav-link" href="#welcome-section">About</a></li>
+					<li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+					<li class="nav-item"><a class="nav-link" href="#subscribe">Subscribe</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<main>
+		<div class="jumbotron jumbotron-fluid">
+			<div class="container container-fluid">
+				<section class="vh-100" id="welcome-section">
+					<h1>Hey I am Alex</h1>
+					<p>a web developer</p>
+				</section>
+
+				<section id="projects">
+					<h2>My Projects</h2>
+					<div class="list-group list-group-flush project-tile">
+						<a class="list-group-item list-group-item-action"
+							href="https://js-tribute-page.stackblitz.io">Tribute Page</a>
+						<a class="list-group-item list-group-item-action"
+							href="https://build-a-technical-documentation-page.stackblitz.io">Technical Documentation
+							Page</a>
+						<a class="list-group-item list-group-item-action"
+							href="https://build-a-survey-form.stackblitz.io">Survey Form</a>
+						<a class="list-group-item list-group-item-action"
+							href="https://build-a-product-landing-page.stackblitz.io">Product Landing Page
+						</a>
+					</div>
+				</section>
+			</div>
+		</div>
+	</main>
+
+	<footer class="text-center">
+		<hr>
+		<p>Written and coded by <a id="profile-link" href="https://www.freecodecamp.com/parloti" target="_blank">Alex
+				Parloti</a>.
+		</p>
+	</footer>
+	<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
